@@ -26,7 +26,9 @@ class MainActivity : AppCompatActivity() {
 
         // From the internet
         val videoVideo2 : VideoView = findViewById(R.id.video_view_2)
-        val uri = Uri.parse("https://static.videezy.com/system/resources/previews/000/002/231/original/5226496.mp4")
+//        val uri = Uri.parse("https://static.videezy.com/system/resources/previews/000/002/231/original/5226496.mp4")
+        val uri = Uri.parse("---")
+
 
         videoVideo2.setVideoURI(uri)
 
@@ -35,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         mediaController2.setAnchorView(videoVideo2)
         mediaController2.setMediaPlayer(videoVideo2)
         videoVideo2.setMediaController(mediaController2)
-        videoVideo2.start()
+//        videoVideo2.start()
 
     }
 }
